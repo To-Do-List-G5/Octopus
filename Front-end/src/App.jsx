@@ -10,7 +10,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
-import Navbar from "./Layout/Sidebar";
+import Sidebar from "./Layout/Sidebar";
 function App() {
   const ScrollToTop = () => {
     const { pathname } = useLocation();
@@ -24,6 +24,7 @@ function App() {
   return (
     <>
       <Router>
+        <Sidebar />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -31,7 +32,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />{" "}
-          <Route path="/Navbar" element={<Navbar />} />{" "}
         </Routes>
       </Router>{" "}
     </>
