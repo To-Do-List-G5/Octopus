@@ -23,17 +23,6 @@ export default function Navbar() {
                 </li>
                 <li className="min-w-max">
                   <Link
-                    to="/"
-                    className="bg group flex items-center space-x-4 rounded-full px-4 py-3 text-gray-600"
-                  >
-                    <i className="bx bx-list-check h-5 w-5 text-3xl text-black"></i>
-                    <span className="group-hover:text-gray-700  ">
-                      Add list
-                    </span>
-                  </Link>
-                </li>
-                <li className="min-w-max">
-                  <Link
                     to="/contact"
                     className="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
                   >
