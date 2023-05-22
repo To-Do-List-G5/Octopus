@@ -1,41 +1,25 @@
-import React, { useEffect } from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  useLocation,
-} from "react-router-dom";
+
+import { Routes, BrowserRouter, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
-import Navbar from "./Layout/Sidebar";
-function App() {
-  const ScrollToTop = () => {
-    const { pathname } = useLocation();
+import Sidebar from "./Layout/Sidebar";
 
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, [pathname]);
-
-    return null;
-  };
+export default function App() {
   return (
-    <>
-      <Router>
-        <ScrollToTop />
-        <Routes>
+    <BrowserRouter>
+      <Sidebar />
+      <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />{" "}
-          <Route path="/Navbar" element={<Navbar />} />{" "}
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/Navbar" element={<Sidebar />} />
         </Routes>
-      </Router>{" "}
-    </>
+      {/* <Footer /> */}
+    </BrowserRouter>
   );
 }
-
-export default App;
