@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ContactUs {
+  background-image: url(../src/Images/ASas_4.png);
+}

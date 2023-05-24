@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="flex bg-white ">
       <Router>
-        <div className="col-span-3  ">
+        <div className="col-span-3 sticky top-0 h-screen">
           <Sidebar />
         </div>
         <div className="w-screen">

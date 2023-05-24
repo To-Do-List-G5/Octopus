@@ -1,108 +1,119 @@
-import React from "react";
-export default function About() {
+import About1 from "../Images/about.png";
+
+const About = () => {
   return (
-    <>
-      <div class="bg-gray-800 text-white py-10 text-center">
-        <h1 class="text-4xl">About Us Page</h1>
-        <br />
-        <p class="mt-2">
-          We are a passionate team committed to simplifying your task management
-          with our innovative website. Our mission is to provide a seamless and
-          efficient experience for creating and organizing your to-do list.
-          Whether you're a student, professional, or busy individual, our
-          website is designed to help you stay organized and prioritize your
-          tasks effectively. With user-friendly features and a responsive
-          design, our website ensures a seamless experience across various
-          devices. Experience the convenience and productivity of our todo list
-          website by exploring its responsive nature as you resize your browser
-          window.
-        </p>
-      </div>
-
-      <h2 class="text-center my-8">Our Team</h2>
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full sm:w-1/3 px-4 mb-8">
-          <div class="bg-white shadow-md rounded-lg p-4 w-80">
-            <img src="../../src/Images/avatar.PNG" alt="Hamzeh" class="w-1/2 m-auto" />
-            <div class="mt-4">
-              <h2 class="text-xl">Hamzeh Dawahreh</h2>
-              <p class="text-gray-600">Scrun Master</p>
-
-              <p class="mt-2">hmzhdawahreh@gmail.com</p>
-              <button class="bg-black text-white px-4 py-2 mt-4 w-full">
-                Contact
-              </button>
-            </div>
-          </div>
+    <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4      ">
+      <div className="flex flex-col lg:flex-row justify-between gap-8  aboutHero  ">
+        <div className="w-full lg:w-5/12 flex flex-col justify-center">
+          <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
+            About Us
+          </h1>
+          <p className="font-normal text-base leading-6 text-gray-600 ">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum.In the first place we have granted to God, and
+            by this our present charter confirmed for us and our heirs forever
+            that the English Church shall be free, and shall have her rights
+            entire, and her liberties inviolate; and we will that it be thus
+            observed; which is apparent from
+          </p>
         </div>
-
-        <div class="w-full sm:w-1/3 px-4 mb-8">
-          <div class="bg-white shadow-md rounded-lg p-4 w-80">
-            <img src="../../src/Images/avatar.PNG" alt="Drobi" class="w-1/2 m-auto"/>
-            <div class="mt-4">
-              <h2 class="text-xl">Abdelrahman Drobi</h2>
-              <p class="text-gray-600">Product Owner</p>
-              <p class="mt-2">drobi@gmail.com</p>
-              <button class="bg-black text-white px-4 py-2 mt-4 w-full">
-                Contact
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="w-full sm:w-1/3 px-4 mb-8">
-          <div class="bg-white shadow-md rounded-lg p-4 w-80">
-            <img src="../../src/Images/avatar.PNG" alt="John" class="w-1/2 m-auto" />
-            <div class="mt-4">
-              <h2 class="text-xl">Amer Khawaldah</h2>
-              <p class="text-gray-600">QA</p>
-              <p class="mt-2">AmerKhawaldah@example.com</p>
-              <button class="bg-black text-white px-4 py-2 mt-4 w-full">
-                Contact
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="w-full sm:w-1/3 px-4 mb-8">
-          <div class="bg-white shadow-md rounded-lg p-4 w-80">
-            <img src="../../src/Images/avatar.PNG" alt="Issa" class="w-1/2 m-auto" />
-            <div class="mt-4">
-              <h2 class="text-xl">Issa Zeidan</h2>
-              <p class="text-gray-600">Team member</p>
-              <p class="mt-2">IssaZeidan@example.com</p>
-              <button class="bg-black text-white px-4 py-2 mt-4 w-full">
-                Contact
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="w-full sm:w-1/3 px-4 mb-8">
-          <div class="bg-white shadow-md rounded-lg p-4 w-80">
-            <img src="../../src/Images/avatar.PNG" alt="John" class="w-1/2 m-auto" />
-            <div class="mt-4">
-              <h2 class="text-xl">Dania Aboghoush</h2>
-              <p class="text-gray-600">Team member</p>
-              <p class="mt-2">DaniaAboghoush@example.com</p>
-              <button class="bg-black text-white px-4 py-2 mt-4 w-full">
-                Contact
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="w-full sm:w-1/3 px-4 mb-8">
-          <div class="bg-white shadow-md rounded-lg p-4 w-80">
-            <img src="../../src/Images/avatar.PNG" alt="John" class="w-1/2 m-auto" />
-            <div class="mt-4">
-              <h2 class="text-xl">Bashar Omoush</h2>
-              <p class="text-gray-600">Team member</p>
-              <p class="mt-2">BasharOmoush@example.com</p>
-              <button class="bg-black text-white px-4 py-2 mt-4 w-full">
-                Contact
-              </button>
-            </div>
-          </div>
+        <div className="w-full lg:w-8/12 ">
+          <img className="w-full h-full" src={About1} alt="A group of People" />
         </div>
       </div>
-    </>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div className="flex lg:flex-row flex-col justify-between gap-8 pt-12 aboutUS ">
+        <div className="w-full lg:w-5/12 flex flex-col justify-center">
+          <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
+            Our Story
+          </h1>
+          <p className="font-normal text-base leading-6 text-gray-600 ">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum.In the first place we have granted to God, and
+            by this our present charter confirmed for us and our heirs forever
+            that the English Church shall be free, and shall have her rights
+            entire, and her liberties inviolate; and we will that it be thus
+            observed; which is apparent from
+          </p>
+        </div>
+        <div className="w-full lg:w-8/12 lg:pt-8 ">
+          <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md ">
+            <div className="p-4 pb-6 flex justify-center flex-col items-center">
+              <img
+                className="md:block hidden w-40 h-40  "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIslvinS5jD5gVj9PhW8zoVyAh7nwKV7aGUtUqQDih&s  "
+                alt="Alexa featured Img"
+              />
+              <p className="font-medium text-xl leading-5 text-gray-800 mt-4">
+                Bashar
+              </p>
+            </div>
+            <div className="p-4 pb-6 flex justify-center flex-col items-center">
+              <img
+                className="md:block hidden"
+                src="https://i.ibb.co/fGmxhVy/Rectangle-119.png"
+                alt="Olivia featured Img"
+              />
+              <p className="font-medium text-xl leading-5 text-gray-800 mt-4">
+                dania{" "}
+              </p>
+            </div>
+            <div className="p-4 pb-6 flex justify-center flex-col items-center">
+              <img
+                className="md:block hidden"
+                src="https://i.ibb.co/Pc6XVVC/Rectangle-120.png"
+                alt="Liam featued Img"
+              />
+              <p className="font-medium text-xl leading-5 text-gray-800 mt-4">
+                abdalrahman drobi
+              </p>
+            </div>
+            <div className="p-4 pb-6 flex justify-center flex-col items-center">
+              <img
+                className="md:block hidden"
+                src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png"
+                alt="Elijah featured img"
+              />
+              <p className="font-medium text-xl leading-5 text-gray-800 mt-4">
+                Amer Khawalda
+              </p>
+            </div>
+            <div className="p-4 pb-6 flex justify-center flex-col items-center">
+              <img
+                className="md:block hidden"
+                src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png"
+                alt="Elijah featured img"
+              />
+              <p className="font-medium text-xl leading-5 text-gray-800 mt-4">
+                Hamzeh Dawahreh
+              </p>
+            </div>
+            <div className="p-4 pb-6 flex justify-center flex-col items-center">
+              <img
+                className="md:block hidden"
+                src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png"
+                alt="Elijah featured img"
+              />
+              <p className="font-medium text-xl leading-5 text-gray-800 mt-4">
+                Issa Zeidan
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
   );
-}
+};
+
+export default About;

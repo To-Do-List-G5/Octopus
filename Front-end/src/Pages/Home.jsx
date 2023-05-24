@@ -1,15 +1,17 @@
 import React from "react";
 import List from "../Components/list";
+import Slider from "../Components/Slider";
 export default function Home() {
   return (
     <>
+      <Slider />
       <div
         style={{
           width: "100%",
           height: "200px",
           background: "linear-gradient(to bottom, #058dcb, white)",
           display: "flex",
-          flexDirection:"column",
+          flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
         }}

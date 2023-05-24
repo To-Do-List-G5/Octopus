@@ -1,4 +1,5 @@
 # Octopus
+
 # About Us
 
 Octopus Todo is a user-friendly web application designed to simplify task management and boost productivity. Whether you're a busy professional, a student juggling multiple assignments, or someone looking to stay organized in your personal life, Octopus Todo is here to help you stay on top of your tasks with ease.
@@ -36,6 +37,6 @@ Octopus Todo is built on a powerful and reliable technology stack, ensuring a sm
 - Amer Khawaldeh
 - Issa Zeidan
 
->* In order to check the basic idea of our project feel free to visit [this link](https://www.figma.com/file/LcKlOG1NXJ9O7hflrh8p45/Octopus?type=design&node-id=0-1&t=ku2LX6Z4d5gijmaO-0) , And in order to follow our amazing team members in Github you can visit our organization Repo [link](https://github.com/To-Do-List-G5/Octopus)
+> - In order to check the basic idea of our project feel free to visit [this link](https://www.figma.com/file/LcKlOG1NXJ9O7hflrh8p45/Octopus?type=design&node-id=0-1&t=ku2LX6Z4d5gijmaO-0) , And in order to follow our amazing team members in Github you can visit our organization Repo [link](https://github.com/To-Do-List-G5/Octopus), Also we used Trello to organize the tasks [link](https://trello.com/b/kOOgentM/octopus)
 
 Thank you for choosing Octopus Todo to streamline your task management process. We hope you find it beneficial and it helps you stay organized and productive!
